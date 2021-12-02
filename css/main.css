@@ -15,6 +15,15 @@
 .about .card-text {
   margin-top: 20px;
 }
+.about .card-body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+.about .card-body p {
+  flex: 1;
+}
 .about,
 .gallery,
 .roadmap {
